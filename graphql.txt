@@ -1,0 +1,26 @@
+npm init -y
+
+npm install apollo-server graphql
+//enable to work with graphql in node apps
+
+npm install nodemon --save-dev
+
+interact with API need resolvers
+resolve the data
+
+first define resolver in schema and implement logic in JS
+
+API has 2 types of resolvers queries, mutation.
+
+queries shows data as it is not modify
+
+in single query
+parent : first param to access context of query
+
+args: user provided argument
+
+add mutation type in schema first
+
+
+
+
